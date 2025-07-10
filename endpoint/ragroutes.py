@@ -31,7 +31,7 @@ async def indexing(documents: list[UploadFile] = File(...)):
 
 
 
-@router.post("/query")
+@router.post("/contextgenreration")
 async def query(request: Query):
 
     refined_query = request.query.strip()
