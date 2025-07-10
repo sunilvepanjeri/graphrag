@@ -1,7 +1,7 @@
 #Graph RAG
 
 * This project runs by running the main file
-* It uses for UV for project management
+* It uses UV for project management
 * enpoint consists of three files
 * ragroutes consists the API routes Written with FastAPI
 * supportings consists additional functions that supports routes
