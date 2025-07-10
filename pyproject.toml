@@ -5,6 +5,22 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "blobfile>=3.0.0",
     "fastapi>=0.116.0",
+    "frontend>=0.0.3",
+    "huggingface-hub[hf-xet]>=0.33.2",
+    "matplotlib>=3.10.3",
+    "networkx>=3.5",
+    "numpy>=2.3.1",
+    "pandas>=2.3.1",
+    "pdf4llm>=0.0.26",
+    "pydantic>=2.11.7",
+    "pymupdf>=1.26.3",
+    "python-multipart>=0.0.20",
+    "scikit-learn>=1.7.0",
+    "sentence-transformers>=5.0.0",
+    "spacy>=3.8.7",
+    "torch>=2.7.1",
+    "transformers>=4.53.1",
     "uvicorn>=0.35.0",
 ]
